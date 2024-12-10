@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:background="@drawable/backimage"
+    android:gravity="bottom"
+    android:padding="30dp"
+    android:orientation="vertical">
+
+    <ImageView
+
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@drawable/telechargemennnt"
+         />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:text="Assia Daanouni"
+        android:textColor="@color/black"
+        android:textFontWeight="@integer/material_motion_duration_medium_2"
+        android:textSize="24sp"
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Software and artificial intelligence Student"
+        android:textColor="#E91E63"
+        android:textColorHighlight="#F8F5F5"
+        android:textSize="14sp" />
+
+</LinearLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:icon="@drawable/home_24dp_000000_fill0_wght400_grad0_opsz24"
+            android:id="@+id/nav_home"
+            android:title="Home"
+            />
+        <item
+            android:icon="@drawable/baseline_calculate_24"
+            android:id="@+id/nav_calc"
+
+            android:title="Calculator"
+             />
+        <item
+            android:id="@+id/Dictionary"
+            android:icon="@drawable/dictionary_24dp_000000_fill0_wght400_grad0_opsz24"
+            android:title="Dictionary"
+            app:showAsAction="always" />
+        <item
+            android:id="@+id/Chat"
+            android:icon="@drawable/chat_24dp_000000_fill0_wght400_grad0_opsz24"
+            android:title="Chat"
+            app:showAsAction="always" />
+    </group>
+    <group android:checkableBehavior="single" >
+        <item android:title="Profile">
+            <menu>
+                <item
+                    android:id="@+id/nav_login"
+                    android:icon="@drawable/login_24dp_000000_fill0_wght400_grad0_opsz24"
+                    android:title="Login" />
+                <item
+                    android:id="@+id/nav_profile"
+                    android:icon="@drawable/person_24dp_000000_fill0_wght400_grad0_opsz24"
+                    android:title="Profile" />
+                <item
+                    android:id="@+id/nav_logout"
+                    android:icon="@drawable/logout_24dp_000000_fill0_wght400_grad0_opsz24"
+                    android:title="Logout" />
+            </menu>
+        </item>
+        <item android:title="Communicate" >
+            <menu >
+                <item
+                    android:id="@+id/nav_share"
+                    android:icon="@drawable/share_24dp_000000_fill0_wght400_grad0_opsz24"
+                    android:title="Share" />
+                <item
+                    android:id="@+id/nav_us"
+                    android:icon="@drawable/rate_review_24dp_000000_fill0_wght400_grad0_opsz24"
+                    android:title="Rate" />
+            </menu>
+        </item>
+    </group>
+</menu>

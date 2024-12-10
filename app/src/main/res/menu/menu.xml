@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <group >
+        <item
+            android:id="@+id/Standard"
+            android:icon="@drawable/baseline_calculate_24"
+            android:orderInCategory="100"
+            app:showAsAction="never"
+            android:title="Standard" />
+        <item
+            android:id="@+id/Scientific"
+            android:orderInCategory="101"
+            app:showAsAction="never"
+            android:title="Scientifique" />
+        <item
+            android:id="@+id/Graphique"
+            android:orderInCategory="102"
+            app:showAsAction="never"
+            android:title="Graphique" />
+        <item
+            android:id="@+id/Programmeur"
+            android:orderInCategory="103"
+            app:showAsAction="never"
+            android:title="Programmeur" />
+        <item
+            android:id="@+id/Device"
+            android:orderInCategory="104"
+            app:showAsAction="never"
+            android:title="Device" />
+        <item
+            android:id="@+id/Volume"
+            android:orderInCategory="105"
+            app:showAsAction="never"
+            android:title="Volume" />
+        <item
+            android:id="@+id/Longeur"
+            android:orderInCategory="106"
+            app:showAsAction="never"
+            android:title="Longeur" />
+        <item
+            android:id="@+id/poidsmasse"
+            android:orderInCategory="107"
+            app:showAsAction="never"
+            android:title="Poids et masse" />
+        <item
+            android:id="@+id/Temperature"
+            android:orderInCategory="108"
+            app:showAsAction="never"
+            android:title="Temperature" />
+    </group>
+</menu>
